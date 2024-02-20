@@ -17,10 +17,12 @@ TRUST_INI=RK3568TRUST.ini
 MINIALL_INI=RK3568MINIALL.ini
 
 RKBIN=edk2-rockchip-non-osi/rkbin
-FIRMWARE_VER="$(git describe --tags --dirty)"
+#FIRMWARE_VER="$(git describe --tags --dirty)"
+FIRMWARE_VER="extrowerk"
 
 fetch_deps() {
-	git submodule update --init --recursive
+#	git submodule update --init --recursive
+true
 }
 
 build_uefitools() {

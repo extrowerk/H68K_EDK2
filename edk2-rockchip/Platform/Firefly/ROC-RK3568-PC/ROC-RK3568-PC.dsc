@@ -427,12 +427,12 @@
   gEfiMdeModulePkgTokenSpaceGuid.PcdFirmwareVendor|L"EDK2"
   gEfiMdeModulePkgTokenSpaceGuid.PcdSetNxForStack|TRUE
   gEfiMdeModulePkgTokenSpaceGuid.PcdImageProtectionPolicy|0x3
-  gRk356xTokenSpaceGuid.PcdPlatformName|"Firefly ROC-RK3568-PC"
+  gRk356xTokenSpaceGuid.PcdPlatformName|"LinkStar H68K"
   gRk356xTokenSpaceGuid.PcdCpuName|"Rockchip RK3568 (Cortex-A55)"
-  gRk356xTokenSpaceGuid.PcdPlatformVendorName|"Firefly"
-  gRk356xTokenSpaceGuid.PcdFamilyName|"ROC-RK3568-PC"
-  gRk356xTokenSpaceGuid.PcdProductUrl|"https://en.t-firefly.com/product/industry/rocrk3568pc.html"
-  gRk356xTokenSpaceGuid.PcdMemoryVendorName|"Unknown"
+  gRk356xTokenSpaceGuid.PcdPlatformVendorName|"Hinlink"
+  gRk356xTokenSpaceGuid.PcdFamilyName|"H68K"
+  gRk356xTokenSpaceGuid.PcdProductUrl|"https://www.seeedstudio.com/LinkStar-H68K-1432-p-5501.html"
+  gRk356xTokenSpaceGuid.PcdMemoryVendorName|"RS1G32LF4D2BDS-53BT Rayson"
 
   #
   # USB support
@@ -485,9 +485,9 @@
   #
   # The ROC-RK3568-PC has a WiFi card on the third MSHC
   #
-  gRk356xTokenSpaceGuid.PcdMshc2Status|0xF
-  gRk356xTokenSpaceGuid.PcdMshc2SdioIrq|TRUE
-  gRk356xTokenSpaceGuid.PcdMshc2NonRemovable|TRUE
+  #gRk356xTokenSpaceGuid.PcdMshc2Status|0xF
+  #gRk356xTokenSpaceGuid.PcdMshc2SdioIrq|TRUE
+  #gRk356xTokenSpaceGuid.PcdMshc2NonRemovable|TRUE
 
   #
   # Limit eMMC to 52 MHz
@@ -510,7 +510,7 @@
   #
   # ConfigDxe
   #
-  gRk356xTokenSpaceGuid.PcdSystemTableMode|L"SystemTableMode"|gConfigDxeFormSetGuid|0x0|0
+  gRk356xTokenSpaceGuid.PcdSystemTableMode|L"SystemTableMode"|gConfigDxeFormSetGuid|0x0|1
   gRk356xTokenSpaceGuid.PcdCpuClock|L"CpuClock"|gConfigDxeFormSetGuid|0x0|2
   gRk356xTokenSpaceGuid.PcdCustomCpuClock|L"CustomCpuClock"|gConfigDxeFormSetGuid|0x0|816
 

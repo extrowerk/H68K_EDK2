@@ -63,8 +63,8 @@ formset
             prompt      = STRING_TOKEN(STR_SYSCONFIG_SYSTAB_PROMPT),
             help        = STRING_TOKEN(STR_SYSCONFIG_SYSTAB_HELP),
             flags       = NUMERIC_SIZE_4 | INTERACTIVE | RESET_REQUIRED,
-            option text = STRING_TOKEN(STR_SYSCONFIG_SYSTAB_ACPI), value = SYSTEM_TABLE_MODE_ACPI, flags = DEFAULT;
-            option text = STRING_TOKEN(STR_SYSCONFIG_SYSTAB_BOTH), value = SYSTEM_TABLE_MODE_BOTH, flags = 0;
+            option text = STRING_TOKEN(STR_SYSCONFIG_SYSTAB_ACPI), value = SYSTEM_TABLE_MODE_ACPI, flags = 0;
+            option text = STRING_TOKEN(STR_SYSCONFIG_SYSTAB_BOTH), value = SYSTEM_TABLE_MODE_BOTH, flags = DEFAULT;
             option text = STRING_TOKEN(STR_SYSCONFIG_SYSTAB_DT), value = SYSTEM_TABLE_MODE_DT, flags = 0;
         endoneof;
 
